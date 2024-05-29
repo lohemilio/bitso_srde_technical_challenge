@@ -87,32 +87,6 @@ The code follows PEP8 guidelines for readability and maintainability.
 
 This project provides an ETL pipeline to process and transform historical data for downstream users including Business Intelligence, Machine Learning, Experimentation, and Marketing. The data model and transformed tables enable these teams to answer various analytical questions.
 
-## Project Structure
-
-└── challenge2/<br>
-    ├── README.md<br>
-    ├── main.py<br>
-    ├── etl_pipeline/<br>
-    │   ├── __init__.py<br>
-    │   ├── etl.py<br>
-    ├── output_tables/<br>
-    │   ├── transactions.csv<br>
-    │   ├── users.csv<br>
-    │   ├── events.csv<br>
-    ├── queries/<br>
-    │   ├── queries.sql<br>
-    ├── erd/<br>
-    │   ├── erd_image.png<br>
-    └── data/<br>
-        ├── deposit_sample_data.csv<br>
-        ├── event_sample_data.csv<br>
-        ├── user_id_sample_data.csv<br>
-        ├── withdrawals_sample_data.csv<br>
-    └── tests/<br>
-        ├── __init__.py<br>
-        └── test_etl.py<br>
-
-
 ## Data Model
 
 The data model follows a **Star Schema** design, which is suitable for analytical queries and reporting.
@@ -126,7 +100,7 @@ The data model follows a **Star Schema** design, which is suitable for analytica
 
 ### Entity-Relationship Diagram (ERD)
 
-![ERD](erd/erd_image.png)
+![ERD](challenge2/erd/erd_image.png)
 
 ## How to Run
 
