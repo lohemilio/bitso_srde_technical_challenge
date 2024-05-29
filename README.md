@@ -1,4 +1,5 @@
 # BITSO DATA ENGINEERING TECHNICAL CHALLENGE
+(Link to the project with all the data files: https://drive.google.com/drive/folders/14B81Y1IRTpobomxe6d--oiq8wWrFdlI2?usp=sharing)
 # Challenge 1: Order Book Data Pipeline
 
 ## Overview
